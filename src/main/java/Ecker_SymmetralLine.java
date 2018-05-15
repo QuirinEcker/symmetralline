@@ -31,7 +31,7 @@ public class Ecker_SymmetralLine extends PApplet {
         int a = mouseY;
 
         int distanceFromCenter = a - x;
-        int distanceFromCenterNeg = x - distanceFromCenter;;
+        int distanceFromCenterNeg = x - distanceFromCenter;
 
         return distanceFromCenterNeg;
     }
