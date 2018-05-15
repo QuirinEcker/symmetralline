@@ -32,6 +32,7 @@ public class Ecker_SymmetralLine extends PApplet {
 
         int distanceFromCenter = a - x;
         int distanceFromCenterNeg = x - distanceFromCenter;;
+
         return distanceFromCenterNeg;
     }
 
@@ -48,7 +49,6 @@ public class Ecker_SymmetralLine extends PApplet {
     private void blackLine(int firstX, int firstY, int secondX, int secondY) {
         stroke(0);
         fill(0);
-
         line(firstX, firstY, secondX, secondY);
     }
 }
